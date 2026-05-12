@@ -1,0 +1,35 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "花店"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages_flower",
+			"pages": [
+				{
+					"path": "flower_list/list",
+					"style": {
+						"navigationBarTitleText": "鲜花列表"
+					}
+				},
+				{
+					"path": "flower_detail/detail",
+					"style": {
+						"navigationBarTitleText": "鲜花详情"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "花店",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
